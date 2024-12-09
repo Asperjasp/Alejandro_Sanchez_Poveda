@@ -1,0 +1,73 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #F0F0F0;
+    color: #002868;
+    line-height: 1.6;
+}
+
+/* Header */
+.header {
+    background-color: #002868;
+    color: #F0F0F0;
+    padding: 1rem;
+    text-align: center;
+}
+.language-selector button {
+    background: none;
+    border: none;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.language-selector img {
+    width: 24px;
+    height: 16px;
+    vertical-align: middle;
+}
+
+/* Main Content */
+.main-content {
+    padding: 2rem;
+}
+section {
+    margin-bottom: 2rem;
+}
+h2 {
+    color: #B8860B;
+}
+
+/* Project Cards */
+.project-card {
+    background-color: #F0F0F0;
+    border: 1px solid #002868;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}
+.project-card a {
+    color: #002868;
+    text-decoration: none;
+    font-weight: bold;
+}
+.project-card a:hover {
+    color: #B8860B;
+}
+
+/* Social Media */
+.social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+}
+.social-icons img {
+    width: 40px;
+    height: 40px;
+}
+
+/* Footer */
+.footer {
+    background-color: #002868;
+    color: #F0F0F0;
+    text-align: center;
+    padding: 1rem;
+}
